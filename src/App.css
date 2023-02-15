@@ -1,0 +1,150 @@
+.app__title-container{
+	display:flex;
+	justify-content: space-between;
+	padding: 3rem;
+}
+
+.app__btn-icon{
+	margin: 0 10px;
+	font-size: 1.5rem;
+}
+.app__title{
+	font-size: 3rem;
+}
+.app__form{
+	width: 100%;
+	height: 100vh;
+	position:fixed;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0003;
+	backdrop-filter: blur(2px); /*difuminado*/
+	transform:scale(0);
+	transition:transform 200ms ease;
+}
+.app__form-visible{
+	transform:scale(1);
+}
+
+.card{
+	border: 1px solid chocolate; 
+	border-radius: 5px;
+}
+
+.card__title{
+	padding: 0.5rem 1rem;
+	color: chocolate;
+	background-color: #F5F2F1;
+	border-radius: 5px 5px 0 0;
+	/*border-style: none none solid none;*/
+	border-bottom: 1px solid chocolate;
+}
+
+.card__body{
+	padding: 1rem;
+}
+.card__button-container{
+	display: flex;
+	justify-content: flex-end;
+}
+.card__sub-title{
+	color:chocolate;
+	font-weight: bold;
+	margin-top: 0.5rem;
+}
+
+.card__content{
+	margin-left: 10px;
+}
+
+.card__btn-delete{
+	background-color: crimson;
+	margin:0 5px;
+	font-size: 1.2rem;
+}
+
+.card__btn-update{
+	background-color: teal;
+	margin:0 5px;
+	font-size: 1.2rem;
+}
+.users__container{
+	margin:0 3rem;
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	gap:20px;
+}
+
+
+
+.form{
+	padding: 1.2em;
+	width: 100%;
+	max-width: 350px;
+	background-color: white;
+	height: max-content;
+	border-radius: 0.7em;
+}
+
+.form__title{
+	margin-bottom: 0.6em;
+	font-size: 1.5rem;
+}
+
+.form__item{
+	display:flex;
+	flex-direction: column;
+	gap: 0.3em;
+	margin-bottom: 0.8em;
+}
+
+.form__label{
+	color: rgb(54,53,53);
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+.form__input{
+	padding: 0.2em 0.4em;
+	height: 2rem;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.form__btn-submit{
+
+	background-color: SeaGreen;
+	width:40%;
+}
+
+.form__btn-cancel{
+
+	background-color: crimson;
+	width:40%;
+}
+
+.app__btn-add{
+
+	background-color: chocolate;
+	font-size: 1.5rem;
+}
+
+.btn{
+	cursor:pointer;
+	
+	padding: 0.5em;
+	color:azure;
+	border-radius: 5px;
+}
+
+.form__btnContainer{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+
+
+
